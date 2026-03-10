@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "VolumeData.h"
 #include <vector>
 #include <cstdint>

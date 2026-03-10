@@ -1,4 +1,4 @@
-#include "VolumeData.h"
+﻿#include "VolumeData.h"
 #include "SurfaceDetermination.h"
 #include "MarchingCubes.h"
 #include "VoidAnalysis.h"
@@ -123,7 +123,9 @@ int main(int argc, char** argv) {
     // ── 4.1 导出结果 (Step 8 & 10) ──────────────────────────────
     VoidAnalysis::saveResults("output", voids, labelVolume, vol);
 
-    // ── 4.2 生成 3D 效果 (Step 9.3) ─────────────────────────────
+    /*
+    
+        // ── 4.2 生成 3D 效果 (Step 9.3) ─────────────────────────────
     printf("Generating 3D Void Mesh for visualization...\n");
     vtkSmartPointer<vtkPolyData> voidMesh = VoidAnalysis::generateVoidMesh(labelVolume, vol);
     
@@ -151,6 +153,7 @@ int main(int argc, char** argv) {
     renderWindow->Render();
     interactor->Start();
 
+    */
     // ── 5. 结果全轴预览 ────────────────────────────────────────
     std::string resWin = "Final Analysis Results";
     cv::namedWindow(resWin);
@@ -194,5 +197,9 @@ int main(int argc, char** argv) {
         cv::imshow(resWin, display);
         if (cv::waitKey(30) == 27) break;
     }
+    
+    
+    
+
     return 0;
 }

@@ -12,8 +12,8 @@ CMakeFiles/
 *.obj
 *.pdb
 *.exe
-
-.md
+*.csv
+*.md
 
 # 临时文件
 .cache/

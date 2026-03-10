@@ -19,8 +19,6 @@ add_executable(CTSurface
     VoidAnalysis.h
     mc_tables.h)
 
-add_executable(GenerateTestData
-    generate_test_data.cpp)
 
 target_link_libraries(CTSurface
     ${VTK_LIBRARIES}
