@@ -1,0 +1,17 @@
+# CMake build目录
+build/
+
+# CMake缓存
+CMakeCache.txt
+CMakeFiles/
+
+# VS生成文件
+*.vcxproj
+*.vcxproj.user
+*.sln
+*.obj
+*.pdb
+*.exe
+
+# 临时文件
+.cache/
