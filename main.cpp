@@ -1,4 +1,4 @@
-﻿#include "VolumeData.h"
+#include "VolumeData.h"
 #include "SurfaceDetermination.h"
 #include "MarchingCubes.h"
 #include "VoidAnalysis.h"
